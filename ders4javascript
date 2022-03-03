@@ -1,0 +1,77 @@
+<html>
+    <head>
+        <script>
+            
+            function Sayicarp() {
+                 var s=document.getElementById("sayi").value;
+                var a=document.getElementById("sayi2").value;
+                var c  = s *a;
+               document.getElementById("sayı3").value=c ;
+            }
+    
+        </script>
+         <script>
+            
+            function SayiCıkar() {
+                 var s=document.getElementById("sayi5").value;
+                var a=document.getElementById("sayi6").value;
+                var c  = s -a;
+               document.getElementById("sayı7").value=c ;
+            }
+    
+        </script> <script>
+            
+            function Sayibol() {
+                 var s=document.getElementById("sayi9").value;
+                var a=document.getElementById("sayi29").value;
+                var c  = s /a;
+               document.getElementById("sayı32").value=c ;
+            }
+    
+        </script> <script>
+            
+            function SayiTopla() {
+                 var s=document.getElementById("sayi31").value;
+                var a=document.getElementById("sayi26").value;
+                var c  = Number (s) + Number (a);
+               document.getElementById("sayı39").value=c ;
+            }
+    
+        </script>
+    </head>
+<body>
+    
+    <div style="text-align: center;">
+        <input id = "sayi" value="0" /> 
+        <input id = "sayi2" value="0" /> 
+        <button onclick="Sayicarp()">carp</button>
+        <input id ="sayı3" value="0" /> 
+
+</div>
+
+<div style="text-align: center;">
+    <input id = "sayi5" value="0" /> 
+    <input id = "sayi6" value="0" /> 
+    <button onclick="SayiCıkar()">cıkar</button>
+    <input id ="sayı7" value="0" /> 
+
+</div>
+<div  style="text-align: center;">
+    <input id = "sayi9" value="0" /> 
+    <input id = "sayi29" value="0" /> 
+    <button onclick="Sayibol()">böl</button>
+    <input id ="sayı32" value="0" /> 
+
+</div>
+<div  style="text-align: center;">
+    <input id = "sayi31" value="0" /> 
+    <input id = "sayi26" value="0" /> 
+    <button onclick="SayiTopla()">topla</button>
+    <input id ="sayı39" value="0" /> 
+
+</div>
+
+    
+
+</body>
+    </html>
